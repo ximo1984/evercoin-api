@@ -4,7 +4,7 @@ import json
 class Evercoin:
 	def __init__(self):
 		self.api_url = "https://test.evercoin.com/v1/" # When you are ready for production, make sure you obtain your API key by contacting support@evercoin.com and use the production endpoint which is https://api.evercoin.com 
-		self.api_key = "7f878074f09f4f673554f30be51b6a0d" # WRITE YOUR API KEY HERE
+		self.api_key = "" # WRITE YOUR API KEY HERE
 
 	def __get_request(self, url):
 		final_url = self.api_url + url
